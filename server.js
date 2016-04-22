@@ -2,7 +2,6 @@
 
 var express = require('express');
 var bodyParser = require('body-parser');
-var imageToAscii = require("image-to-ascii");
 
 var app = express();
 
@@ -17,8 +16,4 @@ var server = app.listen(2683, function () {
     var port = server.address().port;
 
     console.log('Application listening at http://%s:%s', host, port);
-
-    imageToAscii('./images/raas_emoji.png', {size: {height: "45%"}}, function(err, converted) {
-        console.log(err || converted);
-    });
 });
