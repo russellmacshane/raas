@@ -1,0 +1,26 @@
+{
+  "name": "raas",
+  "version": "1.0.0",
+  "description": "Russ as a Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russellmacshane/raas.git"
+  },
+  "author": "Russell MacShane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/russellmacshane/raas/issues"
+  },
+  "homepage": "https://github.com/russellmacshane/raas#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express-server": "^0.5.3"
+  }
+}
