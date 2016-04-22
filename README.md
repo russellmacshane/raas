@@ -1,2 +1,2 @@
 # raas
-Russ as a Service
+![raas](/images/raas_emoji.png) Russ as a Service
